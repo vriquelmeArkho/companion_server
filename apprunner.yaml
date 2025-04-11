@@ -1,8 +1,8 @@
 version: 1.0
 runtime: nodejs18
 build:
-  commands:
-    - npm install
+  commands: npm install
+
 run:
   port: 3020
   start:
@@ -25,4 +25,4 @@ run:
   autoScalingConfiguration:
     minSize: 1
     maxSize: 1
-    maxConcurrency: 10 
+    maxConcurrency: 10
